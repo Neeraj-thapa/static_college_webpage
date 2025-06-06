@@ -1,0 +1,194 @@
+ 
+#ac{
+ 
+
+ background-image: linear-gradient(lime,cyan );
+font-family:arial;}
+
+
+
+#heading{
+	 margin-top:110px;
+       	 height: 180px;
+	 width : 400px;
+         background-image: linear-gradient(blue, red);
+border: 2px solid red;
+	 font-size:30px;
+	 color:white;
+
+    }
+#a{
+ 
+
+ background-image: linear-gradient(cyan, blue);
+font-family:arial;}
+
+#prog{
+ 
+
+ background-image: linear-gradient(white, cyan);
+font-family:arial;}
+
+    #form{
+        width : 400px;
+        height : 250px;
+        background-image: linear-gradient(red, cyan);
+        border: 2px solid red;
+        font-size:20px;
+ 
+    }
+    input {
+    padding: 8px;
+}
+.button {
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: lime;
+    width:125px;
+  }
+    
+.butt {
+   padding:center;
+    border-radius: 70px;
+   
+    background-color: rgb(8, 213, 249);
+ 
+  }
+
+
+.bu {
+   padding: 2px;
+    border-radius: 100px;
+background-color: white;
+   
+  }
+
+
+.butto {
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    background-color:cyan;
+    width:125px;
+  }
+
+
+
+
+#m{
+               background-color:yellow;  }
+#hed{
+              background-color:lightblue;
+ 	height:50px;
+	width:100%;
+	text-align:center;
+	}
+#men{
+              background-color:yellow;
+	font-color:white;
+ 	height:30px;
+	width:100%;
+	text-align:center;
+	}
+#imag{
+              background-color:white;
+ 	height:100px;
+	width:100%;
+	text-align:center;
+	}
+
+#product{
+              background-color:purple;
+ 	height:200px;
+	width:100%;
+	text-align:center;
+	}
+
+
+#b1 {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #333;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			text-align: center;
+		}
+		#hs {
+			color: #fff;
+			font-size: 3em;
+			margin-bottom: 50px;
+			text-shadow: 2px 2px #000;
+			animation: color-change 5s infinite;
+		}
+		.logo {
+			width: 200px;
+			height: 200px;
+			background-color: #fff;
+			border-radius: 50%;
+			margin-bottom: 50px;
+			animation: rotate 10s linear infinite;
+		}
+		.logo::before {
+			content: "";
+			display: block;
+			width: 100px;
+			height: 100px;
+			background-color: #333;
+			border-radius: 50%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			animation: pulse 2s ease-in-out infinite;
+		}
+		@keyframes rotate {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
+		@keyframes pulse {
+			from {
+				transform: scale(1);
+				opacity: 1;
+			}
+			to {
+				transform: scale(1.5);
+				opacity: 0;
+				background-color: #fff;
+			}
+		}
+		@keyframes color-change {
+			0% {
+				color: #fff;
+			}
+			25% {
+				color: #ff0;
+			}
+			50% {
+				color: #f00;
+			}
+			75% {
+				color: #0f0;
+			}
+			100% {
+				color: #fff;
+			}
+		}
+
+
+
+
+
+
+
+
